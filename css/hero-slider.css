@@ -246,7 +246,8 @@ Single slide style
 .cd-hero-slider li:first-of-type::before {
   content: '';
   background-image: url(../img/slide_01.jpg);
-  filter: blur(10px);
+  -webkit-filter: brightness(50%); /* Safari */
+    filter: brightness(50%);
   position: absolute;
   left:0; top:0; right:0; bottom:0;
   z-index: -1;
@@ -256,7 +257,8 @@ Single slide style
   content: '';
   background-image: url(../img/主選單.jpg);
   background-size: 1600px 750px;
-	filter: blur(10px);
+  -webkit-filter: brightness(50%) blur(2px); /* Safari */
+  filter: brightness(50%) blur(2px);
   position: absolute;
   left:0; top:0; right:0; bottom:0;
   z-index: -1;
@@ -264,19 +266,57 @@ Single slide style
   width: 1600px;
   height: 750px;
 }
-.cd-hero-slider li:nth-of-type(3) {
+.cd-hero-slider li:nth-of-type(3)::before {
+  content: '';
   background-image: url(../img/選擇關卡.jpg);
-  -webkit-filter: brightness(50%); /* Safari */
-    filter: brightness(50%);
+  background-size: 1600px 750px;
+  -webkit-filter: brightness(50%) blur(2px); /* Safari */
+  filter: brightness(50%) blur(2px);
+  position: absolute;
+  left:0; top:0; right:0; bottom:0;
+  z-index: -1;
+  pointer-events: none;
+  width: 1600px;
+  height: 750px;
 }
-.cd-hero-slider li:nth-of-type(4) {
+.cd-hero-slider li:nth-of-type(4)::before {
+  content: '';
   background-image: url(../img/任務模式1.jpg);
+  background-size: 1600px 750px;
+  -webkit-filter: brightness(50%) blur(2px); /* Safari */
+  filter: brightness(50%) blur(2px);
+  position: absolute;
+  left:0; top:0; right:0; bottom:0;
+  z-index: -1;
+  pointer-events: none;
+  width: 1600px;
+  height: 750px;
 }
-.cd-hero-slider li:nth-of-type(5) {
+.cd-hero-slider li:nth-of-type(5)::before {
+  content: '';
   background-image: url(../img/任務模式2.jpg);
+  background-size: 1600px 750px;
+  -webkit-filter: brightness(50%) blur(2px); /* Safari */
+  filter: brightness(50%) blur(2px);
+  position: absolute;
+  left:0; top:0; right:0; bottom:0;
+  z-index: -1;
+  pointer-events: none;
+  width: 1600px;
+  height: 750px;
 }
-.cd-hero-slider li:nth-of-type(6) {
+.cd-hero-slider li:nth-of-type(6)::before {
+  content: '';
   background-image: url(../img/失敗.jpg);
+  background-size: 1600px 750px;
+  -webkit-filter: brightness(50%) blur(2px); /* Safari */
+  filter: brightness(50%) blur(2px);
+  position: absolute;
+  left:0; top:0; right:0; bottom:0;
+  z-index: -1;
+  pointer-events: none;
+  width: 1600px;
+  height: 750px;
 }
 
 .cd-hero-slider .cd-full-width,
