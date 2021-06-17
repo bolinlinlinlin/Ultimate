@@ -228,9 +228,7 @@ Single slide style
 .cd-hero-slider li:nth-of-type(6) {
   background-image: url(../img/失敗.jpg);
 }
-.cd-hero-slider li:nth-of-type(7) {
-  background-image: url(../img/bg_任務模式.png);
-}
+
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
   position: absolute;
