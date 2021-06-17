@@ -6,11 +6,20 @@ http://www.tooplate.com/view/2089-meteor
 
 */
 
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', arial, sans-serif;
 }
+
+.vertical-middle div{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
 ul {
 	list-style: none;
 }
