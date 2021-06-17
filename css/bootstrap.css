@@ -1414,6 +1414,15 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.use-transform div{
+  position: relative;
+  width:100px;
+  height:50px;
+  top:50%;
+  margin:0 auto;
+  transform:translateY(-50%);
+  background:#095;
+}
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -1770,7 +1779,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 50%;
   }
   .col-md-2 {
     width: 16.66666667%;
