@@ -13,7 +13,7 @@ http://www.tooplate.com/view/2089-meteor
     font-family: 'Open Sans', arial, sans-serif;
 }
 
-.vertical-middle div{
+.vertical-middle {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-align-items: center;
