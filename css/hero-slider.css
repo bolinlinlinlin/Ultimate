@@ -246,12 +246,15 @@ Single slide style
 .cd-hero-slider li:first-of-type::before {
   content: '';
   background-image: url(../img/slide_01.jpg);
-  -webkit-filter: brightness(50%); /* Safari */
-    filter: brightness(50%);
+  background-size: 1600px 750px;
+  -webkit-filter: brightness(50%) blur(2px); /* Safari */
+  filter: brightness(50%) blur(2px);
   position: absolute;
   left:0; top:0; right:0; bottom:0;
   z-index: -1;
   pointer-events: none;
+  width: 1600px;
+  height: 750px;
 }
 .cd-hero-slider li:nth-of-type(2)::before {
   content: '';
