@@ -49,7 +49,7 @@ p1 {
 	transition: all 0.5s;
 }
 .primary-button a:hover {
-	
+	background-color: #5c9d7d;
 }
 .white-button a {
 	display: inline-block;
@@ -238,16 +238,12 @@ ul.cd-hero-slider {
 }
 
 .service-item {
-	cursor: pointer;
+	/* cursor: pointer; */
 	background-color: #fff;
 	text-align: center;
 	padding: 30px 20px;
 	transition: all 0.7s;
 	box-shadow: 0px 0px 15px #cdcdcd;
-}
-
-.service-item:hover {
-	background-color: #a2cf8d;
 }
 
 .service-item h4 {
@@ -258,23 +254,11 @@ ul.cd-hero-slider {
 	margin-top: 25px;
 }
 
-.service-item:hover h4 {
-	color: #fff;
-}
-
-.service-item:hover p {
-	color: #fff;
-}
-
 .first-service .icon {
 	background-image: url(../img/first-service-main.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
-}
-
-.first-service:hover .icon {
-	background-image: url(../img/first-service-white.png);
 }
 
 .second-service .icon {
@@ -284,19 +268,11 @@ ul.cd-hero-slider {
 	display: inline-block;
 }
 
-.second-service:hover .icon {
-	background-image: url(../img/second-service-white.png);
-}
-
 .third-service .icon {
 	background-image: url(../img/third-service-main.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
-}
-
-.third-service:hover .icon {
-	background-image: url(../img/third-service-white.png);
 }
 
 .fourth-service .icon {
@@ -306,9 +282,35 @@ ul.cd-hero-slider {
 	display: inline-block;
 }
 
+/*
+.service-item:hover {
+	background-color: #a2cf8d;
+}
+
+.service-item:hover h4 {
+	color: #fff;
+}
+
+.service-item:hover p {
+	color: #fff;
+}
+
+.first-service:hover .icon {
+	background-image: url(../img/first-service-white.png);
+}
+
+.second-service:hover .icon {
+	background-image: url(../img/second-service-white.png);
+}
+
+.third-service:hover .icon {
+	background-image: url(../img/third-service-white.png);
+}
+
 .fourth-service:hover .icon {
 	background-image: url(../img/fourth-service-white.png);
 }
+*/
 
 
 #what-we-do {
