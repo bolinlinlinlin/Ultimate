@@ -51,8 +51,8 @@ http://www.tooplate.com/view/2089-meteor
                         <li><a href="#" class="scroll-link" data-id="about">前言&簡介</a></li>
                         <li><a href="#" class="scroll-link" data-id="portfolio">規則</a></li>
                         <li><a href="#" class="scroll-link" data-id="blog">成果</a></li>
-                        <li><a href="#" class="scroll-link" data-id="contact">Demo</a></li>
-                        <button type="button" onclick="autoplaySlider(6)">下一張</button>
+                        <li><a href="#" class="scroll-link" data-id="contact">影片展示</a></li>
+
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
@@ -65,7 +65,7 @@ http://www.tooplate.com/view/2089-meteor
 
 
     <section class="cd-hero">
-        <ul class="cd-hero-slider">
+        <ul class="cd-hero-slider autoplay">
             <!-- 
             <ul class="cd-hero-slider autoplay"> for slider auto play 
             <ul class="cd-hero-slider"> for disabled auto play
@@ -225,9 +225,7 @@ http://www.tooplate.com/view/2089-meteor
                     </div>
                 </div>
 
-                <div class="white-button">
-                    <a href="#" class="scroll-link" data-id="portfolio">NEXT</a>
-                </div>
+
 
             </div>
         </div>
@@ -447,7 +445,9 @@ http://www.tooplate.com/view/2089-meteor
                         <div class="blog-item b1">
                             <div class="thumb">
                                 <img src="img/sys.png" alt="">
-
+                                <div class="text-content">
+                                    <h4>UI設置</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -456,7 +456,7 @@ http://www.tooplate.com/view/2089-meteor
                             <div class="thumb">
                                 <img src="img/3D_VR.png" alt="">
                                 <div class="text-content">
-                                    <h4>VR控制器</h4>
+                                    <h4>將 VIVE 手把透過3D 列印的東西固定後，可以更模擬操作時的手感。</h4>
                                 </div>
                             </div>
                         </div>
@@ -466,7 +466,7 @@ http://www.tooplate.com/view/2089-meteor
                             <div class="thumb">
                                 <img src="img/VR_.png" alt="">
                                 <div class="text-content">
-                                    <h4>VR畫面</h4>
+                                    <h4>使用VR操作無人機</h4>
                                 </div>
                             </div>
                         </div>
@@ -501,16 +501,30 @@ http://www.tooplate.com/view/2089-meteor
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h4>Demo</h4>
+                            <h4>影片展示</h4>
                             <div class="line-dec"></div>
                         </div>
-                        <div class="section-heading">
-                            <iframe width="1150" height="500" src="https://www.youtube.com/embed/7CqjaKcEutU"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
+                        <style>
+                            .embed-container {
+                                position: relative;
+                                padding-bottom: 56.25%;
+                                height: 0;
+                                overflow: hidden;
+                                max-width: 100%;
+                            }
+
+                            .embed-container iframe,
+                            .embed-container object,
+                            .embed-container embed {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        </style>
+                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/7CqjaKcEutU'
+                                frameborder='0' allowfullscreen></iframe></div>
                     </div>
                 </div>
 
