@@ -265,6 +265,7 @@ Single slide style
   background-image: url(../img/slide_01.jpg);
   -webkit-filter: brightness(50%) blur(2px) !important; /* Safari */
   filter: brightness(50%) blur(2px) !important;
+    background-size: 100% !important;
 }
 .cd-hero-slider li:nth-of-type(2)::before {
   background-image: url(../img/主選單.jpg);
