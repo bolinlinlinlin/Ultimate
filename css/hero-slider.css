@@ -243,83 +243,44 @@ Single slide style
   background-size: cover;
   background-repeat: no-repeat;
 }
+.cd-hero-slider li::before {
+    content: '';
+    -webkit-filter: brightness(50%) blur(1px); /* Safari */
+    filter: brightness(50%) blur(1px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center center;
+}
 .cd-hero-slider li:first-of-type::before {
-  content: '';
   background-image: url(../img/slide_01.jpg);
-  background-size: 1600px 750px;
-  -webkit-filter: brightness(50%) blur(2px); /* Safari */
-  filter: brightness(50%) blur(2px);
-  position: absolute;
-  left:0; top:0; right:0; bottom:0;
-  z-index: -1;
-  pointer-events: none;
-  width: 1600px;
-  height: 750px;
+  -webkit-filter: brightness(50%) blur(2px) !important; /* Safari */
+  filter: brightness(50%) blur(2px) !important;
+    background-size: 100% !important;
 }
 .cd-hero-slider li:nth-of-type(2)::before {
-  content: '';
   background-image: url(../img/主選單.jpg);
-  background-size: 1600px 750px;
-  -webkit-filter: brightness(50%) blur(1px); /* Safari */
-  filter: brightness(50%) blur(1px);
-  position: absolute;
-  left:0; top:0; right:0; bottom:0;
-  z-index: -1;
-  pointer-events: none;
-  width: 1600px;
-  height: 750px;
 }
 .cd-hero-slider li:nth-of-type(3)::before {
-  content: '';
   background-image: url(../img/選擇關卡.jpg);
-  background-size: 1600px 750px;
-  -webkit-filter: brightness(50%) blur(1px); /* Safari */
-  filter: brightness(50%) blur(1px);
-  position: absolute;
-  left:0; top:0; right:0; bottom:0;
-  z-index: -1;
-  pointer-events: none;
-  width: 1600px;
-  height: 750px;
 }
 .cd-hero-slider li:nth-of-type(4)::before {
-  content: '';
   background-image: url(../img/train_five.jpg);
-  background-size: 1600px 750px;
-  -webkit-filter: brightness(50%) blur(1px); /* Safari */
-  filter: brightness(50%) blur(1px);
-  position: absolute;
-  left:0; top:0; right:0; bottom:0;
-  z-index: -1;
-  pointer-events: none;
-  width: 1600px;
-  height: 750px;
 }
 .cd-hero-slider li:nth-of-type(5)::before {
-  content: '';
   background-image: url(../img/eight.jpg);
-  background-size: 1600px 750px;
-  -webkit-filter: brightness(50%) blur(1px); /* Safari */
-  filter: brightness(50%) blur(1px);
-  position: absolute;
-  left:0; top:0; right:0; bottom:0;
-  z-index: -1;
-  pointer-events: none;
-  width: 1600px;
-  height: 750px;
 }
 .cd-hero-slider li:nth-of-type(6)::before {
-  content: '';
   background-image: url(../img/ui.jpg);
-  background-size: 1600px 750px;
-  -webkit-filter: brightness(50%) blur(1pxs); /* Safari */
-  filter: brightness(50%) blur(1px);
-  position: absolute;
-  left:0; top:0; right:0; bottom:0;
-  z-index: -1;
-  pointer-events: none;
-  width: 1600px;
-  height: 750px;
 }
 
 .cd-hero-slider .cd-full-width,

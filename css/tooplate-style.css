@@ -460,7 +460,7 @@ ul.cd-hero-slider {
 }
 
 .blog-item {
-	cursor: pointer;
+	/* cursor: pointer; */
 	margin-bottom: 30px;
 }
 
